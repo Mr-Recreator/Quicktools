@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC eWallet Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">IRCTC Wallet</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Calculator</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>IRCTC eWallet Calculator</h1>
+        <p>Calculate the exact amount to load in your wallet</p>
+        <label for="ticket_price">Enter Ticket Price (₹):</label>
+        <input type="number" id="ticket_price" placeholder="Enter amount" required>
+        <button onclick="calculate()">Calculate</button>
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
